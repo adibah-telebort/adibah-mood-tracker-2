@@ -12,8 +12,8 @@
 
        // code will run whenever logout or login
    	 supabase.auth.onAuthStateChange((event, userSession) => {
-   		 $session = userSession; // set session
-   		 redirect();
+		$session = userSession; // set session
+   		redirect();
    	 });
     }
 
